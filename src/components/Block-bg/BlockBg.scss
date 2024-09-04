@@ -1,0 +1,36 @@
+.block-bg {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 5vh;
+
+  &__content {
+    position: relative;
+    height: 100%;
+    z-index: 10;
+    padding-inline: 10vh;
+    padding-block: 5vh;
+  }
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to left, #f1f1f10a, #4f4f4f97);
+    backdrop-filter: blur(7px);
+    border: 1px solid #dadadab4;
+    border-radius: 15px;
+    z-index: -10;
+
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-family: "Regular2";
+  }
+
+  &__children {
+    position: absolute;
+    inset: 0;
+    display: flex;
+  }
+}

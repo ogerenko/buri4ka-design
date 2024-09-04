@@ -1,0 +1,24 @@
+.about-me {
+  &__container {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__description {
+    padding-left: 10vh;
+    padding-bottom: 5vh;
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  &__photo {
+    align-self: end;
+    height: 85vh;
+    width: 50%;
+    background-image: url(../../../public/images/about-me__photo3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+}

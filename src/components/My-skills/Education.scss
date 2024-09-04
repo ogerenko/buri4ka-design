@@ -1,0 +1,86 @@
+.education {
+  height: 90vh;
+  width: 100%;
+  padding: 5vh 10vh;
+  display: flex;
+
+  font-size: 3vh;
+    font-family: "Regular";
+    // font-style: italic;
+    letter-spacing: 1.2px;
+
+  
+  &__list {
+    width: 50%;
+    padding-top: 15vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    // background-color: #9c181855;
+  }
+
+  &__item {
+    display: flex;
+    gap: 1rem;
+
+    // background-color: #4db04a53;
+  }
+
+}
+
+.ed-item {
+  &__icon {
+    height: 3vh;
+    width: 3vh;
+    background-image: url(../../../public/pagin-icons/education-cap.svg);
+    background-size: cover;
+  }
+
+  &__info {
+    &-name {
+      font-weight: 700
+    };
+  }
+}
+
+.skills {
+  &__container {
+    width: 50%;
+
+    position: relative;
+    // background-color: #86e1a44c;
+  }
+
+  &__title {
+    position: absolute;
+    font-family: "Regular2";
+    font-style: normal;
+    font-size: 2.5rem;
+
+  }
+
+  &__list {
+    // margin: 0;
+    // padding: 0;
+    padding-top: 15vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+  }
+}
+
+.sk-list {
+  &__item {
+    width: fit-content;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border: 2px solid gray;
+    border-radius: 2rem;
+    font-style: normal;
+    background-color: #c9c9c911;
+  }
+}

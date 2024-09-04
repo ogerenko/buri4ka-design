@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Header } from "./components/Header";
+import "./App.scss";
+import { AboutMe } from "./components/AboutMe";
+import { Portfolio } from "./components/Portfolio";
+import { Education } from "./components/My-skills";
+import { Contacts } from "./components/Contacts";
+import { useState } from "react";
+import classNames from "classnames";
 
-function App() {
+export const App = () => {
+  const [modalImage, setModalImage] = useState('');
+
+  console.log(modalImage);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      <div className="container-bg">
+        <div className={classNames('portfolio__modal', {'portfolio__modal--active': modalImage})} onClick={() => setModalImage('')}>
+          <img className={classNames('modal__content', {'modal__content--active': modalImage})} src={modalImage} alt="project" />
+        </div>
+        <Header />
+        <AboutMe />
+        <Portfolio setModal={setModalImage} />
+        <Education />
+        <Contacts />
 
-export default App;
+      </div>
+    </>
+  );
+};
