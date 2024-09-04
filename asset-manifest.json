@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/buri4ka-design/static/css/main.8256dc41.css",
+    "main.js": "/buri4ka-design/static/js/main.43e636ad.js",
+    "static/media/about-me__photo3.jpg": "/buri4ka-design/static/media/about-me__photo3.443b0e4157cdcde85219.jpg",
+    "static/media/bg2.jpg": "/buri4ka-design/static/media/bg2.4d50c7f093ebb09aee6e.jpg",
+    "static/media/bg2-reverse.jpg": "/buri4ka-design/static/media/bg2-reverse.7cb81df0247ce010b77b.jpg",
+    "static/media/tt-hoves-light.otf": "/buri4ka-design/static/media/tt-hoves-light.25cc8dd97b7b60997daa.otf",
+    "static/media/tt-hoves-regular.otf": "/buri4ka-design/static/media/tt-hoves-regular.96a811fe35de6ce6d628.otf",
+    "static/media/Righteous-Regular.ttf": "/buri4ka-design/static/media/Righteous-Regular.fd0110471f2228c1808a.ttf",
+    "static/media/logo-white.svg": "/buri4ka-design/static/media/logo-white.d0bb4c76c8fa253a10fa.svg",
+    "static/media/contacts-behance.svg": "/buri4ka-design/static/media/contacts-behance.3bc5e04e4e391ddbee93.svg",
+    "static/media/contacts-telegram.svg": "/buri4ka-design/static/media/contacts-telegram.7b3948c247e4cafd9a22.svg",
+    "static/media/contacts-instagram.svg": "/buri4ka-design/static/media/contacts-instagram.bd1e6470d61bf09b8a41.svg",
+    "static/media/education-cap.svg": "/buri4ka-design/static/media/education-cap.abcf5cc7253bf946b8fc.svg",
+    "static/media/icon-empty.svg": "/buri4ka-design/static/media/icon-empty.6124cdfcd427f6d975af.svg",
+    "index.html": "/buri4ka-design/index.html",
+    "static/media/icon-full.svg": "/buri4ka-design/static/media/icon-full.2cac6abf311fdf859e40.svg",
+    "main.8256dc41.css.map": "/buri4ka-design/static/css/main.8256dc41.css.map",
+    "main.43e636ad.js.map": "/buri4ka-design/static/js/main.43e636ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8256dc41.css",
+    "static/js/main.43e636ad.js"
+  ]
+}
